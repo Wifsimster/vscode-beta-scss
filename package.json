@@ -1,0 +1,34 @@
+{
+  "name": "vscode-beta-scss",
+  "version": "0.0.1",
+  "description": "Beta CSS class name completion for VS Code",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wifsimster/vscode-beta-scss.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wifsimster/vscode-beta-scss/issues"
+  },
+  "homepage": "https://github.com/Wifsimster/vscode-beta-scss#readme",
+  "devDependencies": {
+    "@types/vscode": "^1.34.0"
+  },
+  "engines": {
+    "vscode": "^1.34.0"
+  },
+  "activationEvents": [
+    "onCommand:extension.betaScss"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.betaScss",
+        "title": "Beta scss"
+      }
+    ]
+  }
+}
